@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brik & Mortar</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-top-bar">
+        <div class="cs-top-container">
+            <div class="cs-top-contact">
+                <a href="" class="cs-top-link">
+                    <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-stroke-white.svg" alt="logo" width="16" height="16" aria-hidden="true" decoding="async">
+                    Call us +84 1985 33 999
+                </a>
+                <a href="" class="cs-top-link">
+                    <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/clock-stroke-white.svg" alt="logo" width="20" height="20" aria-hidden="true" decoding="async">
+                    Opening hours: Mon - Sat: 8:00am To 9:00pm
+                </a>
+            </div>
+            <div class="cs-top-social">
+                <a href="" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-lgrey.svg" alt="logo" width="16" height="16" aria-hidden="true" decoding="async">
+                </a>
+                <a href="" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-lgrey.svg" alt="logo" width="16" height="16" aria-hidden="true" decoding="async">
+                </a>
+                <a href="" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-lgrey.svg" alt="logo" width="16" height="16" aria-hidden="true" decoding="async">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="./images/brik--mortar-high-resolution-logo-transparent.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how many there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul">
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Team
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Our Work
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact</a>
+    </div>
+</header>
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1950">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Building foundations for the future</h1>
+            <div class="cs-flex-group">
+                <p class="cs-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, omnis..</p>
+                <a href="" class="cs-button-solid">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/176342/pexels-photo-176342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/176342/pexels-photo-176342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img decoding="async" src="https://images.pexels.com/photos/176342/pexels-photo-176342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="restaurant" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+<!-- ============================================ -->
+<!--                 Side by Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-1901">
+    <div class="cs-container">
+        <div class="cs-content">
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/10202865/pexels-photo-10202865.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/10202865/pexels-photo-10202865.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+                <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/10202865/pexels-photo-10202865.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="people" width="608" height="406">
+            </picture>
+            <div class="cs-wrapper cs-wrapper1">
+                <h2 class="cs-title">Expert installation and repair</h2>
+                <p class="cs-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, recusandae nostrum aliquid earum eos sint exercitationem ipsa eaque unde rerum sapiente ducimus repellat repellendus molestiae cupiditate perspiciatis optio non voluptate!
+                </p>
+                <a class="cs-button-solid" href="">Enroll Now</a>
+            </div>
+        </div>
+        <div class="cs-content">
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/4747433/pexels-photo-4747433.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/4747433/pexels-photo-4747433.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+                <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/4747433/pexels-photo-4747433.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="people" width="608" height="406">
+            </picture>
+            <div class="cs-wrapper cs-wrapper2">
+                <h2 class="cs-title">Precision in every block</h2>
+                <p class="cs-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim omnis quae magnam voluptatem repellat provident ea atque iure iusto doloremque! Odit expedita dolore obcaecati veniam perferendis, reiciendis tenetur saepe consequatur eveniet voluptate pariatur earum, amet officia quod esse in ipsum?
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                    Services                  -->
+<!-- ============================================ -->
+
+<section id="services-1748">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">What we offer</span>
+            <h2 class="cs-title">Our Services</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Foundations and Slabs</h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/11581108/pexels-photo-11581108.jpeg?auto=compress&cs=tinysrgb&w=400">
+                    <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/11581108/pexels-photo-11581108.jpeg?auto=compress&cs=tinysrgb&w=400">
+                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/11581108/pexels-photo-11581108.jpeg?auto=compress&cs=tinysrgb&w=400" alt="person" width="384" height="480" aria-hidden="true">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Brick and Stone Masonry</h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/5876601/pexels-photo-5876601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/5876601/pexels-photo-5876601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/5876601/pexels-photo-5876601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="person" width="384" height="480" aria-hidden="true">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Driveways and Walkways</h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/26319148/pexels-photo-26319148/free-photo-of-a-pigeon-standing-on-the-pavement.jpeg?auto=compress&cs=tinysrgb&w=400">
+                    <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/26319148/pexels-photo-26319148/free-photo-of-a-pigeon-standing-on-the-pavement.jpeg?auto=compress&cs=tinysrgb&w=400">
+                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/26319148/pexels-photo-26319148/free-photo-of-a-pigeon-standing-on-the-pavement.jpeg?auto=compress&cs=tinysrgb&w=400" alt="person" width="384" height="480" aria-hidden="true">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Retaining Walls</h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/11310521/pexels-photo-11310521.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+                    <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/11310521/pexels-photo-11310521.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/11310521/pexels-photo-11310521.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="person" width="384" height="480" aria-hidden="true">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Repair and Restoration</h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/6473984/pexels-photo-6473984.jpeg?auto=compress&cs=tinysrgb&w=400">
+                    <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/6473984/pexels-photo-6473984.jpeg?auto=compress&cs=tinysrgb&w=400">
+                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/6473984/pexels-photo-6473984.jpeg?auto=compress&cs=tinysrgb&w=400" alt="person" width="384" height="480" aria-hidden="true">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Custom Concrete Features</h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/28034962/pexels-photo-28034962/free-photo-of-man-sitting-on-a-bench-in-a-city-square.jpeg?auto=compress&cs=tinysrgb&w=400">
+                    <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/28034962/pexels-photo-28034962/free-photo-of-man-sitting-on-a-bench-in-a-city-square.jpeg?auto=compress&cs=tinysrgb&w=400">
+                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/28034962/pexels-photo-28034962/free-photo-of-man-sitting-on-a-bench-in-a-city-square.jpeg?auto=compress&cs=tinysrgb&w=400" alt="person" width="384" height="480" aria-hidden="true">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-842">
+    <!--Wave grpahic - On the section above the footer, add padding-bottom: 14vw to the section container ID so it pushes down enough for the wave to not overlap its content and the vw unit will make the padding value grow with the screen width to account for the wave getting taller as it gets wider. Change the path fill color to whatever background color the footer is so it matches-->
+    <svg class="cs-wave" width="1920" height="188" viewBox="0 0 1920 188" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M1920 45.8671C1835.33 45.8671 1715.47 60.6671 1549.2 104.534C1115.6 218.4 932.267 0.000366211 466.533 0.000366211C218.933 0.000366211 172.8 45.8671 0.133333 45.8671L0 187.934H1920V45.8671Z" fill="#1A1A1A"/>
+    </svg>
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="./images/brik--mortar-high-resolution-logo-transparent.png" alt="logo" width="240" height="32">
+            </a>
+            <p class="cs-text">
+                This website is a sample for DuskDev Web Development. This company does not exist. 
+            </p>
+            <div class="cs-social">
+                <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fface-grey1.svg" alt="facebook" width="11" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit twitter profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Finstragm-grey3.svg" alt="twitter" width="6" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ftwitter-grey1.svg" alt="instagram" width="11" height="11">
+                </a>
+            </div>
+        </div>
+        <!-- Links -->
+        <div class="cs-ul-wrapper">
+            <span class="cs-header">Quick Links</span>
+            <ul class="cs-ul cs-ul-1">
+                <li class="cs-li">
+                    <a class="cs-link" href="">Home</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="">About</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="">Services</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="">Team</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Our Work</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">FAQ</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-ul-wrapper">
+            <!-- Contact Info -->
+            <span class="cs-header">Contact Information</span>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <!--Make this link go to the google page-->
+                    <a class="cs-link" href="" target="_blank">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fclock-grey.svg" alt="clock icon" width="20" height="20">
+                        Monday - Saturday 8am – 9pm
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="tel:555-497-1900">
+                        <img class="cs-contact-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone-grey.svg" alt="phone icon" width="20" height="20">
+                        555-497-1900
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="mailto:office@email.com">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmessage-grey.svg" alt="email icon" width="20" height="20">
+                        office@email.com
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <!--Make this link go to the google page-->
+                    <a class="cs-link" href="" target="_blank">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fpin-grey.svg" alt="pin icon" width="20" height="20">
+                        555 Olive Crt, Montclair, CA
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cs-bottom">
+        <span class="cs-credit">
+            © Copyright 2023 <a href="" class="cs-credit-link" target="_blank">Stitch Designs</a>
+        </span>
+        <div class="cs-bottom-links">
+            <a href="" class="cs-bottom-link">Privacy Policy</a>
+            <a href="" class="cs-bottom-link">Terms Of Use</a>
+        </div>
+    </div>
+</footer>                                                                   
+</body>
+<script src="./script.js"></script>
+</html>
